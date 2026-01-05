@@ -116,5 +116,5 @@
 //   }
 // }
 export async function GET() {
-  return Promise.resolve("seeding files");
+  return Response.json({ message: 'seeding files' });
 }
